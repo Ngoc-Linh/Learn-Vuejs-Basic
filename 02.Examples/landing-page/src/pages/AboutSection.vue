@@ -27,7 +27,7 @@ const props = defineProps({
         </SectionContent>
         <SectionFooter title="Get it for *free!*"
             description="Do you want to use and/or customize this template? Feel free to clone it from the official Github repo!"
-            button-url="https://github.com/"
+            button-url="https://github.com/Ngoc-Linh/Learn-Vuejs-Basic/tree/main/02.Examples/landing-page"
             button-label="Download Now"
             button-fa-icon="fa-solid fa-download"
             :include-divider="true"

@@ -23,7 +23,7 @@ import Navigation from '@/components/nav/Navigation.vue';
         <main>
             <slot></slot>
         </main>
-        <Footer>
+        <Footer id="footer">
             <FooterBlock :darken="false"
                      :row="true">
                      <FooterColumn title="About"
@@ -34,7 +34,7 @@ import Navigation from '@/components/nav/Navigation.vue';
                           :links="[
                               {label: `Privacy Policy`, href: `#`, faIcon: null},
                               {label: `License`, href: `#`, faIcon: null},
-                              {label: `Github Repo`, href: `https://github.com/`, faIcon: null},
+                              {label: `Github Repo`, href: `https://github.com/Ngoc-Linh/Learn-Vuejs-Basic/tree/main/02.Examples/landing-page`, faIcon: null},
                           ]"
                           :displayLinksAsButtons="false"/>
 
@@ -57,15 +57,15 @@ import Navigation from '@/components/nav/Navigation.vue';
                               `Đà Nẵng, Vietnam`,
                           ]"
                           :links="[
-                              {label: `(555) 555-1234`, href: `tel:123456789`, faIcon: 'fa-regular fa-bell'},
-                              {label: `contact@foxyagency.com`, href: `mailto:foxy@agency.com`, faIcon: 'fa-regular fa-envelope'},
+                              {label: `(342) 681 138`, href: `tel:+84342681138`, faIcon: 'fa-regular fa-bell'},
+                              {label: `ngoclinh@gmail.com`, href: `mailto:ngoclinh@gmail.com`, faIcon: 'fa-regular fa-envelope'},
                           ]"
                           :displayLinksAsButtons="false"/>     
             </FooterBlock>
             <FooterBlock :darken="true"
                      :row="false">
             <FooterCopyright holder="Ngoc Linh"
-                             url="https://ryanbalieiro.com"
+                             url="https://github.com/Ngoc-Linh/Learn-Vuejs-Basic/"
                              license="Distributed Under the MIT License"/>
         </FooterBlock>
         </Footer>

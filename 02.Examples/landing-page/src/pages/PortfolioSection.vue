@@ -120,7 +120,7 @@ const props = defineProps({
             :include-divider="true"
             button-label="Contact Us!"
             button-fa-icon="fa-solid fa-message"
-            button-url="#"/>
+            button-url="#footer"/>
     </Section>
 </template>
 <style lang="scss" scoped>
